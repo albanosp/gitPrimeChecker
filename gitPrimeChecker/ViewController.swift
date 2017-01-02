@@ -12,6 +12,15 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var promptLabel: UILabel!
     @IBOutlet weak var numberToCheck: UITextField!
+    @IBAction func checkPrime(_ sender: Any) {
+    
+        if let checkMe = numberToCheck {
+            print("\(checkMe) OK!")
+        }   else {
+            print("Error!")
+        }
+    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
