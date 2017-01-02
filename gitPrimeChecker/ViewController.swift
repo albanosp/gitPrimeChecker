@@ -12,12 +12,17 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var promptLabel: UILabel!
     @IBOutlet weak var numberToCheck: UITextField!
+    @IBOutlet weak var resultDisplay: UILabel!
+
     @IBAction func checkPrime(_ sender: Any) {
     
         if let checkMe = numberToCheck {
-            print("\(checkMe) OK!")
+            resultDisplay.textColor = UIColor.green
+            resultDisplay.text = "\(checkMe) is Prime"
         }   else {
-            print("Error!")
+            resultDisplay.textColor = UIColor.red
+            resultDisplay.text = "Number is not Prime"
+
         }
     }
 

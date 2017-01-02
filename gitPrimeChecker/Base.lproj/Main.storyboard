@@ -40,12 +40,20 @@
                                     <action selector="checkPrime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zdh-jy-w1X"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXy-54-Km5">
+                                <rect key="frame" x="124" y="248" width="166" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Zjm-ph-hbA" firstAttribute="top" secondItem="fm3-cS-OIf" secondAttribute="bottom" constant="32" id="6C4-q3-GB3"/>
                             <constraint firstItem="fm3-cS-OIf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FLk-Ph-Eln"/>
                             <constraint firstItem="Zjm-ph-hbA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IEv-2F-U11"/>
+                            <constraint firstItem="rXy-54-Km5" firstAttribute="top" secondItem="Zjm-ph-hbA" secondAttribute="bottom" constant="23" id="Lgr-ke-X6h"/>
+                            <constraint firstItem="rXy-54-Km5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P75-at-Lug"/>
                             <constraint firstItem="ppP-Gn-d8X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UoH-Cg-oQn"/>
                             <constraint firstItem="ppP-Gn-d8X" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="dtv-Qs-ish"/>
                             <constraint firstItem="fm3-cS-OIf" firstAttribute="top" secondItem="ppP-Gn-d8X" secondAttribute="bottom" constant="18" id="l8E-W7-ToV"/>
@@ -54,11 +62,12 @@
                     <connections>
                         <outlet property="numberToCheck" destination="fm3-cS-OIf" id="a0H-xQ-nWX"/>
                         <outlet property="promptLabel" destination="ppP-Gn-d8X" id="lZz-Gi-WDJ"/>
+                        <outlet property="resultDisplay" destination="rXy-54-Km5" id="NHG-Ko-RDq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-146" y="154"/>
+            <point key="canvasLocation" x="-146.37681159420291" y="153.2608695652174"/>
         </scene>
     </scenes>
 </document>
