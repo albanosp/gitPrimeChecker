@@ -33,7 +33,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zjm-ph-hbA">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zjm-ph-hbA">
                                 <rect key="frame" x="185" y="173" width="44" height="30"/>
                                 <state key="normal" title="Check"/>
                                 <connections>
@@ -45,6 +45,7 @@
                         <constraints>
                             <constraint firstItem="Zjm-ph-hbA" firstAttribute="top" secondItem="fm3-cS-OIf" secondAttribute="bottom" constant="32" id="6C4-q3-GB3"/>
                             <constraint firstItem="fm3-cS-OIf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FLk-Ph-Eln"/>
+                            <constraint firstItem="Zjm-ph-hbA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IEv-2F-U11"/>
                             <constraint firstItem="ppP-Gn-d8X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UoH-Cg-oQn"/>
                             <constraint firstItem="ppP-Gn-d8X" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="24" id="dtv-Qs-ish"/>
                             <constraint firstItem="fm3-cS-OIf" firstAttribute="top" secondItem="ppP-Gn-d8X" secondAttribute="bottom" constant="18" id="l8E-W7-ToV"/>
