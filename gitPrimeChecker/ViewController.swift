@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var promptLabel: UILabel!
+    @IBOutlet weak var numberToCheck: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
