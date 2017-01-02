@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
         if let checkMe = numberToCheck {
             resultDisplay.textColor = UIColor.green
-            resultDisplay.text = "\(checkMe) is Prime"
+            resultDisplay.text = "\(checkMe.text!) is Prime"
         }   else {
             resultDisplay.textColor = UIColor.red
             resultDisplay.text = "Number is not Prime"
